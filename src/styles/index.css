@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+
+body {
+	font-family: Poppins, sans-serif;
+	background-color: lightblue;
+}
+
+button,
+input {
+	font-family: inherit;
+}
+
+.b1 {
+	background-color: aliceblue;
+	height: 300px;
+	width: 300px;
+	margin: 50px auto;
+	outline: dashed 3px black;
+	outline-offset: -10px;
+	transition: all 0.5s;
+}
+
+.b1 label {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.b1 label p {
+	text-align: center;
+	line-height: 1.5;
+	padding: 20px;
+}
+
+.b1:hover {
+	outline-offset: -20px;
+}
+
+.b2 {
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	width: 70%;
+}
+
+.b2 input {
+	box-sizing: border-box;
+	display: block;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-size: 1em;
+	border: none;
+	font-weight: 400;
+	margin-top: 5px;
+	border-bottom: blue 3px solid;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.b2 input:focus {
+	outline: none;
+}
+
+.b2 label {
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+.msg {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+}
+
+.msg p {
+	font-size: 2em;
+	padding-left: 20px;
+}
+
+.green {
+	color : green;
+}
+
+.red {
+	color: red;
+}
+
+.lgreen {
+	color: black;
+	background-color: lawngreen;
+}
+
+.lred {
+	color: black;
+	background-color: red;
+}
+
+/* .nofile__msg, .drag__msg, .file__msg {
+	display: none;
+} */
+
+.drag__msg {
+	font-size: 1.5em;
+}
+
+.nofile__msg {
+	font-size: 1.5em;
+}
+
+.fileBox label {
+	height: 100%;
+	width: 100%;
+}
+
+.fileBox input {
+	height: 1px;
+	width: 1px;
+	position: absolute;
+	z-index: -9000;
+}
+
+.nope__css {
+	display: none;
+}
