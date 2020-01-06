@@ -12,6 +12,7 @@ app.on('ready', () => {
 		}
 	});
 
+	mainWindow.setMenu(null);
 	mainWindow.loadFile(join(__dirname, 'src', 'index.html'));
 })
 
